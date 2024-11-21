@@ -1,5 +1,7 @@
 YouTube Channel Data Analysis Application
 
+Note: For Security, I have not hard coded API KEY
+
 1. Project Overview
 This application enables users to access, analyze, and manage data from multiple YouTube channels. Built using Streamlit, it retrieves data from YouTube channels, stores it for further analysis, and allows users to search through the stored data.
 

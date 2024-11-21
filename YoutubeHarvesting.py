@@ -1,13 +1,11 @@
 #Autoher Name : SenthilKumaran Ramanathan
 #Created Date :21-Nov-2024
 
+import pandas as pd 
 import streamlit as st
 from googleapiclient.discovery import build
-import psycopg2
-from psycopg2 import sql
 from datetime import datetime
 import os
-import pandas as pd 
 from streamlit_custom_notification_box import custom_notification_box as scnb
 from sqlalchemy import create_engine
 import isodate
@@ -15,8 +13,9 @@ import logging
 logging.getLogger("streamlit").setLevel(logging.ERROR) # to ignore the warrnings 
 import matplotlib.pyplot as plt 
 import plotly.graph_objects as go
-
 import plotly.express as px
+import psycopg2
+from psycopg2 import sql
 
 
 
